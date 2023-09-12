@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dynamic Gallery</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<h1>Dynamic Gallery</h1>
+
+<p>Here are pictures of items that have a special meaning to me!<br> Resize the browser window to change the images!</p>
+<hr>
+<body>
+
+  <h2>Cookies</h2>
+
+  <picture>
+    <source media="(min-width:769px)" srcset="Images/img_worlds_largest_cookie.jpg">
+    <source media="(min-width:426px)" srcset="Images/img_big_chocolate_chip_cookie.jpg">
+    <source media="(min-width:321px)" srcset="Images/img_regular_chocolate_chip_cookie.jpg">
+    <img src="Images/img_mini_chocolate_chip_cookie.jpg" alt="Cookies" style="width:200px;height:200px;" 
+  </picture>
+<hr>
+ <h2>Snow</h2>
+  
+  <picture>
+    <source media="(min-width:769px)" srcset="Images/img_lots_of_snow.jpg">
+    <source media="(min-width:426px)" srcset="Images/img_normal_snow.jpg">
+    <source media="(min-width:321px)" srcset="Images/img_dusting_of_snow.jpg">
+    <img src="Images/img_barely_any_snow.jpg" alt="Snow" style="width:200px;height:200px;" 
+  </picture>
+  <hr>
+<h2>Dogs</h2>   
+
+<picture>
+    <source media="(min-width:769px)" srcset="Images/img_big_dog.jpg">
+    <source media="(min-width:426px)" srcset="Images/img_medium_dog.jpg">
+    <source media="(min-width:321px)" srcset="Images/img_small_dog.jpg">
+    <img src="Images/img_tiny_dog.jpg" alt="Dogs" style="width:200px;height:200px;" 
+  </picture>
+<hr>
+  
+</body>
+
+<b>&copy; Kalli Mathis 2023</b>
+  
+</html>
