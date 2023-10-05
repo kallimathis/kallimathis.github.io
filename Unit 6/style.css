@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("mountains_background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2000px 1000px;
+}
+
+.image{
+  height: 300px;
+  padding: 10px;
+}
+
+#wrapper{
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+main{
+  background-color: fuchsia;
+  margin: auto;
+  color: white;
+  list-style-image: url("mini_planet.png")
+}
+
+.speacialborder{
+  border-image-slice:12 12 12 12;
+  border-image-width:12px 12px 12px 12px;
+  border-image-outset:0px 0px 0px 0px;
+  border-image-repeat:repeat repeat;
+  border-image-source:url("border-image.png");
+  border-style:solid;
+}
